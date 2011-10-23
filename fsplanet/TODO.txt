@@ -1,3 +1,10 @@
 Need the 'on' images for the menu.
 
-Need some of the weapon images that are missing.
+Need some of the weapon images that are missing:
+	http://fly.thruhere.net/fsplanet/tactics.htm
+
+Missing download for kea song:
+  http://fly.thruhere.net/fsplanet/files/kea_forsaken.zip
+
+Pilots page is out of date:
+	http://fly.thruhere.net/fsplanet/pilots.htm
