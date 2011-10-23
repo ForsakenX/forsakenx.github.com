@@ -56,8 +56,8 @@ Games
 <a href="/status/games.xml">(xml)</a>
 </li>
 <li><a href="/docs/CHANGES.xml">Commit Feed (xml)</a></li>
-<li><a href="/bugs.html">Bugs</a></li>
-<li><a href="/features.html">Proposed Feature</a></li>
+<li><a href="/docs/bugs.html">Bugs</a></li>
+<li><a href="/docs/features.html">Proposed Feature</a></li>
 </ul>
 </div>
 
