@@ -8,3 +8,5 @@ Missing download for kea song:
 
 Pilots page is out of date:
 	http://fly.thruhere.net/fsplanet/pilots.htm
+
+Rename all the pages to shtml and include the centralized menu.
