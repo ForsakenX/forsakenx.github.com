@@ -1,0 +1,186 @@
+<!-- start of forsaken.shtml -->
+
+<div id="forsaken" class="left padding">
+
+<div class="padding">
+	<h2>ProjectX - Forsaken Source Port</h2>
+
+	<img id="forsaken-cover" 
+		src="http://fly.thruhere.net/images/acclaim-forsaken.jpg"
+		alt="Acclaim Forsaken Logo">
+
+		<h3>History</h3>
+			<p> Forsaken was developed by Probe Entertainment a division of Acclaim Entertainment in 1995. <p>
+			<p> Similar to the <a href="http://en.wikipedia.org/wiki/Descent_%28video_game%29">Descent</a>
+			    series but unique in it's own right.</p>
+		<h3>Present</h3>
+			<p> It is now actively maintained by the community under the original code name ProjectX. </p>
+			<p> The code base is a fork of the final patch release with various hidden features exposed, 
+			    bug fixes, additions and reversals of unpopular changes that appeared in the patch (such 
+					as speed reduction). </p>
+			<p> See <a href="#projectx_porting_efforts">Porting Efforts</a> for technical information.</p>
+		<h3>Game Play</h3>
+			<p> The unique game play is a high paced and adrenaline driven. </p>
+			<p> The mixture of weapons and freedom of motion allows for unique styles 
+			    and personalities to be developed. </p>
+			<p> Some players are very tactical playing you like a game of chess,
+			    others are like raging animals attacking you from all angles,
+					and a few appear to have developed something of a martial arts. </p>
+			<p> Team games lead to very dynamic intricacies between the players 
+			    and the objectives (such as capture-the-flag) creating very tough and addictive competition. <p>
+			<p> Further information on game play is available on <a href="http://forsakenplanet.tk">FS Planet</a> (click on fskn in menu),
+					an old site mostly targeted at the original Forsaken no longer maintained but still usefull for documentation.</p>
+		<h3>Installation</h3>
+			<p> There really isn't one!  You just download the game and play! </p>
+			<p> <b>Be sure to open/forward port 2300 UDP to your gaming machine</b>.</p>
+			<p>	For more information read the <a href="#projectx_networking">networking section</a>.</p>
+</div>
+
+<div class="video">
+<h4>Method's showing off some skills.</h4>
+<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/1h1BU4iM9m0;hl=en&amp;fs=1"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed wmode="transparent" src="http://www.youtube.com/v/1h1BU4iM9m0;hl=en&amp;fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object>
+</div>
+<div class="video">
+<h4>Silence's video showing off Forsaken.</h4>
+<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/e6u81paVpps&amp;hl=en&amp;fs=1"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed wmode="transparent" src="http://www.youtube.com/v/e6u81paVpps&amp;hl=en&amp;fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object>
+</div>
+
+
+<div class="links">
+<h2>General Links</h2>
+<ul>
+<li> <a style="display:inline-block; margin:1em 0; padding:1em; border:1px outset black; border-radius: 1em; background-color: #98ABBB; color: #292929; font-weight: bold; -moz-box-shadow: 3px 3px 4px #292929; -webkit-box-shadow: 3px 3px 4px #292929; box-shadow: 3px 3px 4px #292929; -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#292929')"; filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#292929');" href="/download/">Download</a> </li>
+<li>
+Games 
+<a href="/status/games.html">(list)</a>
+<a href="/status/games.xml">(xml)</a>
+</li>
+<li><a href="/docs/CHANGES.xml">Commit Feed (xml)</a></li>
+<li><a href="/bugs.html">Bugs</a></li>
+<li><a href="/features.html">Proposed Feature</a></li>
+</ul>
+</div>
+
+<div class="links">
+<h2>Documentation</h2>
+<ul>
+<li><a href="/download/projectx/docs/">Included w/ Download</a>
+<li><a href="/docs/CHANGES.txt">Feature Changes</a></li>
+<li><a href="/docs/NETWORKING.txt">Network Documentation</a></li>
+<li><a href="/players.txt">Players</a></li>
+<li><a href="/fsplanet">Old site with lots of good information for newbs</a></li>
+</ul>
+</div>
+
+<div class="links">
+<h2>Media</h2>
+<ul>
+<li><a href="http://fly.thruhere.net/~lion/videos/ProjectX/">ProjectX Stereo (3D)</a></li>
+<li><a href="http://www.youtube.com/watch?v=e6u81paVpps">Silence's Movie</a></li>
+<li><a href="http://www.youtube.com/watch?v=vWb9_5N91OE&amp;feature=channel_page">Warren's Movie (HD 720p)</a></li>
+<li><a href="http://www.youtube.com/watch?v=gHxRzSWt6Uc">The acid shader</a></li>
+<li><a href="http://www.youtube.com/watch?v=svJ58ucMGQg">Flying Around</a></li>
+<li><a href="http://picasaweb.google.com/mr.danielaquino/Forsaken6dof#">Method's ScreenShots</a></li>
+<li><a href="/fsplanet/kothfinal.htm">Koth Tournament Screenshots</a></li>
+<li><a href="http://www.webincredibles.com/forsaken/images.htm">Ntrek's Screenshots</a></li>
+<li><a href="http://members.cox.net/forsakenwalk/shots.htm">Dragon's ScreenShots</a></li>
+<li><a href="/people/">Player Photos</a></li>
+<li><a href="/music/">Forsaken Music</a></li>
+<li><a href="http://www.bikini.com/supermodels/donna.html">Donna Forsaken Girl</a></li>
+</ul>
+</div>
+
+<div class="links">
+<h2>Method's Matches</h2>
+<ul>
+<li><a href="http://www.youtube.com/watch?v=KpUGnBzut2E">Methods vs Kmiell and Lion</a></li>
+<li><a href="http://www.youtube.com/watch?v=1h1BU4iM9m0">Methods vs Kmiell, Bdb and Bull</a></li>
+<li><a href="http://www.youtube.com/watch?v=EhCDxbV2Px0">Lion vs Meth </a></li>
+</ul>
+</div>
+
+<div id="projectx_porting_efforts" class="left padding">
+<div class="padding" style="padding-top:2em;"> <!-- to go past the top menu -->
+
+		<h2>Porting Efforts</h2>
+			<p> It has been fully ported to cross platform technologies allowing it to 
+					run natively on many operating systems and architectures.</p>
+		<h3>Platform / Inputs</h3>
+			<p> The game now communicates with the operating system via <a href="http://www.libsdl.org/">SDL</a>,
+					which has a growing list of supported systems:<br><br>
+					<span style="font-style:italic; padding-left:1em;">
+						Windows, Mac OS X, Linux, IPhone, the PSP, Syllable, Haiku/BeOS, OpenVMS, WebOS, MorphOS, AmigaOS, and AmigaOS 5.
+					</span></p>
+		<h3>Building</h3>
+			<p> The game is currently compiled using gcc and mingw 
+					but has in the past been compiled with winegcc and
+					visual studios 2008/10. </p>
+			<p> There is currently no 64bit builds, although you can easily play on a 64bit OS
+					by simply installing 32bit libraries or using the pre-compiled static builds that 
+					include the 32 bit libraries into the binary. </p>
+			<p> Mac is fully supported but only through <a href="http://wiki.winehq.org/MacOSX">Wine</a>
+					because there is no other way to cross compile using gcc and access opengl acceleration.</p>
+			<p> The community is also responsible for a few patches added to Wine that allowed 
+					the original directx6 game to run perfectly!<p>
+		<h3>Graphics</h3>
+			<p> Rendering was ported to OpenGL and D3D9.</p>
+			<p> An OpenGL3 version is also supported with some development efforts
+					being directed towards moving the lighting
+					system and other effects onto the GPU.</p>
+		<h3>Audio</h3>
+			<p> The game now uses <a href="http://kcat.strangesoft.net/openal.html">OpenAL Soft</a> for cross platform sound API. </p>
+			<p>	Although it's still based on panning and volume control to simulate the 3d environment. </p>
+			<p> Efforts are in work to soon use OpenAL's built in 3d sound support. </p>
+			<p> This has many benefits some of which are:<br><br>
+					<span style="font-style:italic; padding-left:1em;">
+						surround sound, doppler effect, and better environmental effects 
+						(such as being submerged in water).
+					</span></p>
+		<h3 id="projectx_networking">Networking</h3>
+			<p> ProjectX was ported to a <a href="http://fly.thruhere.net/projects/forsaken/net_enet_2.c">custom</a>,
+					peer-to-peer library written on top of <a href="http://enet.bespin.org/">Enet</a>.</p>
+		<h4>Routers / Firewalls</h4>
+			<p> The game always has been and will most likely always be 
+					<a href="http://en.wikipedia.org/wiki/Peer-to-peer">peer-to-peer</a>.</p>
+			<p> This has the side affect that <b>players must forward/open their game port (default: 2300 UDP)
+					to their gaming machine</b>. Multiple computers are supported by forwarding a different port for 
+					each one.</p>
+			<p>	This wasn't needed back in 1998 because nobody had routers and most people were 
+					directly connected to the internet using 56k modems without any firewall!
+					Today however internet providers generally embed a router right into their modems.
+					But majority of these users have no idea that they even have one 
+					much less how to configure them!  There is also those that may be in a public 
+					access location such as a hotel or coffee shop.  <b>Hence this is basically the 
+					only issue players have with setting up the game.</b>  Today we are actually in
+					a period of migration to <a href="http://en.wikipedia.org/wiki/IPv6">ipv6</a> 
+					which will remove the need for 
+					<a href="http://en.wikipedia.org/wiki/Network_address_translation">NAT</a>
+					effectively fixing the problem.  This is not a bug in the game but more a 
+					bug in the player / industry.
+			<p> One of the features designed into the game is the <b>first player to join a game does 
+					NOT require their port to be forwarded</b>.
+					This is because players connect to the host just like you
+					connect to web sites and because *existing players connect to new players* in the exact same way.
+				  Thus the first player to join a game never requires someone to connect to them.
+					Obviously though if you leave the game you won't have much success getting back in
+					and everyone has to work together so that you join first.</p>
+			<p> Until that time we are looking into having the host support proxying of players.
+					Although this has the downside of increasing the latency and bandwidth it will in 
+					the short term make the game more inviting.  
+					Support for <a href="http://en.wikipedia.org/wiki/Universal_Plug_and_Play">upnp</a> 
+					and other protocols are also being looked into which allows the game to talk to the router
+					to temporarly negotiate a port on the fly.</p>
+		<h3>Bots / AI</h3>
+			<p> There has been some work done on making some better bots.  This is still in development though.
+					An interesting idea is to support pitting bot programs written by users against each other
+					and other human players.  Much like <a href="http://en.wikipedia.org/wiki/Crobots">c-robots</a>
+					and it's descendants.</p>
+		<h3>Level Editor</h3>
+			<p> See <a href="#pxb">PX Blender</a>. </p>
+	</p>
+
+</div></div> <!-- end porting -->
+
+</div> <!-- end forsaken -->
+
+<!-- end of forsaken.shtml -->

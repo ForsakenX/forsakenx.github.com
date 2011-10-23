@@ -1,0 +1,310 @@
+==============================================
+Changes of interest to end users of Forsaken.
+==============================================
+
+==============================
+** Changes Since 1.04.646 and 647
+==============================
+
+* Fixed various bugs that caused Level Changing to crash :]
+
+==============================
+** Changes Since 1.04.633
+==============================
+
+* Moved Wine Mouse Hacks into main stream code.
+  Enable it via the -wine command line option.
+
+* Altered the IP line in the join screen to be more informative.
+
+* Removed the annoying quit button in multiplayer screens.
+
+==============================
+** Changes Since 1.04.621
+==============================
+
+**** RUNS LINUX ON LINUX !!! 03/09/09
+     Do to the fix bellow Forsaken now runs FAST!!!
+     on Linux even using DirectPlay native dll's :]
+
+* Ported dynamic sfx sound thread into main thread.
+  Game is now single threaded... This fixes some fps
+  regression issues that appeared when we gave this
+  thread higher priority to fix the sound lag.
+
+==============================
+** Changes Since 1.04.613
+==============================
+
+* Got rid of annoying spam messages when you don't have computer voice enabled.
+
+==============================
+** Changes Since 1.04.611
+==============================
+
+* Enabled rendering fog and added menu option for it.
+
+==============================
+** Changes Since 1.04.604
+==============================
+
+* Enabled processing of primaries and certain secondaries that are not visible.
+This fixes mines not blowing up and the shockwave issue to blow up other mines nearby.
+Also if bullets were not registered do to being unvisible you would not have seen them if you nitro'd up to where they should be.
+
+==============================
+** Changes Since 1.04.602
+==============================
+
+* Mines will now blow up locally... Mine/Missile shockwaves will blow up other mines...  Mine processing will work if your not in a visible group as well.
+
+==============================
+** Changes Since 1.04.601
+==============================
+
+* Fixed bug from 1.04.600 which caused secondary bullets to blow up from mine shockwaves.
+
+==============================
+** Changes Since 1.04.600
+==============================
+
+* fixed mine bug
+
+==============================
+** Changes Since 1.04.598
+==============================
+
+* removed uneeded messages
+
+==============================
+** Changes Since 1.02.545
+==============================
+
+* Increated max primary weapon setting to be 2*maxplayers
+
+==============================
+** Changes Since 1.02.543
+==============================
+
+* bug: fixed the multiple primary weapons
+
+==============================
+** Changes Since 1.02.504 **
+==============================
+
+* changed network connection flags to optimize for latency instead of bandwidth
+
+==============================
+** Changes Since 1.02.502 **
+==============================
+
+* fixed ability to limit max players
+
+==============================
+** Changes Since 1.02.451 **
+==============================
+
+* added support for newest version of game launcher (0.0.5)
+
+==============================
+** Changes Since 1.02.415 **
+==============================
+
+* added support for new game launcher
+* added ability for the host to dynamically set collision perspective and short packets
+* new score system implemented - more details and more accurate
+* host updates new players of everybody's current milestone kills (so now if you join late you will be synchronised with everybody else)
+* host updates new players of game statistics/score
+* scores/stats are calculated locally instead of being constantly broadcast (results in fewer packets being sent/recieved)
+* ship bob now works with high frame rates
+* host now saves a list of player's IP addresses and will give the same player number back to someone who leaves and rejoins with the same address (thereby you get your old score back)
+
+==============================
+** Changes Since 1.02.413 **
+==============================
+
+* fixed tracking missiles: now correctly home in on enemy mines
+* bike co-ord update packets are only sent if the queue of messages will allow the receipt within 100ms. This should allow other players as much fidelity as bandwidth permits, yet not lag behind if flow control conditions change.
+
+==============================
+** Changes Since 1.02.410 **
+==============================
+
+* in-game text messages now scale according to screen-size
+* maximum length of a text message increased to 512
+* text message history now left-aligns to use screen space more efficiently
+
+==============================
+** Changes Since 1.02.409 **
+==============================
+
+* added cross-hair to watch mode
+* added missile camera to watch mode and demo playback
+* added display of golden power pod, invulnerability, stealth to watch mode
+* name of player currently being watched now displays in yellow
+
+==============================
+** Changes Since 1.02.385 **
+==============================
+
+* cleaned up the single-player in-game menu - no longer shows the host options or ip address
+* optimised shockwave messages (i.e. informing everybody when you die of the blast radius) - previously it was broadcasting this to everybody - now it only sends to players who are within close range
+* fixed demo playback - watch mode was previously stealing the camera view
+* removed bomb tag game (wasn't complete) and all related checks
+* removed a lot of unnecessary network messages that were not being used
+* fixed a bug possibly causing the host not to send important information (e.g. collision perspective and kill limit - this completes the bug fix from earlier)
+
+==============================
+** Changes Since 1.02.376 **
+==============================
+
+* added version query ability. Type a normal text message consisting of just 'version' and all players should automatically respond with their version numbers.
+* watch mode now displays the name of the player whom you are watching.
+* optimised player sound taunts so that it only sends to players if they are within range. Previously it was broadcasting to everybody even if they were not in range and would never play the sound.
+* removed a lot more server checks improving performance and further reducing size of exe
+
+==============================
+** Changes Since 1.02.369 **
+==============================
+
+* changed in-game version number from 1.01 to 1.02
+* turned on UseSendAsync mode which should improve network/rendering.
+* removed a lot of server checks improving performance and shrinking size of exe some what.
+* fixed bug resulting in host not sending important information (e.g. ctf flag rules) to joiners.
+
+==============================
+** Changes Since 1.02.368 **
+==============================
+
+* fixed individual primary weapon select keys - previously pyrolite key was selecting sussgun and vice versa.
+
+==============================
+** Changes Since 1.02.361 **
+==============================
+
+* added watch mode which enables you to watch others players - option is available as a slider from the in-game menu (under quit to desktop - this option will probably be moved in the future to a more appropriate location). A message is broadcast to all players informing then when you enter and exit this mode. Upon entering the mode, any weapons you have are scattered and you 'die' but no points are added/subtracted.
+* 'leave blank to scan for lan games' message when joining a multiplayer game is no longer selectable since it is not a button.
+
+==============================
+** Changes Since 1.02.358 **
+==============================
+
+* compiled without OPT_ON - was causing lag problems. (USEINLINE,FINAL_RELEASE still on)
+* fixed too many spaces when somebody kills someone, was: X KILLED Y__WITH WEAPON ON SAME TEAM
+* fixed logging (use -Debug on the cli... Works on linux too.)
+
+==============================
+** Changes Since 1.01.358 **
+==============================
+
+*  compiled with all optimisations on (OPT_ON,USEINLINE,FINAL_RELEASE).
+
+==============================
+** Changes Since 1.01.356 **
+==============================
+
+* player speech taunts enabled - on pressing a key, a biker voice taunt is played on your machine and on the enemy's machine (you must be in close proximity to the enemy for them to hear it). To set the key, go to in-game biker setup and bike controls, it's at the bottom of the first page, underneath roll mode. (Note: other player's will also need to be using version 1.01.358 or later.)
+* registry mechanism simplified - no longer need to run ProjectX.exe with the full path in Wine.
+
+==============================
+** Changes Since 1.01.347 **
+==============================
+
+* compiled with optimisations on (OPT_ON,USEINLINE,FINAL_RELEASE) - this should improve performance.
+* added Show Statistics key to config and to the in-game biker controls (next to Show Messages key previously added). It will show detailed kill stats while the key is held down. This is still a major work in progress - do not trust the stats to be accurate yet (at best it will only show you stats from since you have joined the game - it does not get an update from the host when you join)
+
+==============================
+** Changes Since 1.01.346 **
+==============================
+
+* changed multiplayer host defaults to short packets off, packet grouping off, packet rate 10.
+
+==============================
+** Changes Since 1.01.344 **
+==============================
+
+* added flag sfx volume control to the menus which controls the volume for flag pickup and scoring.
+* reduced game text message widths from 62 to 48 to stop long messages from becoming scrambled.
+
+==============================
+** Changes Since 1.01.343 **
+==============================
+
+* improvements to the customise message colour options. Introduced a setting for own messages, taunt messages, and pickup messages. Thus, now you can differentiate easily between taunt messages and a player's typed messages by the colour, or even block taunt messages from being displayed entirely.
+
+==============================
+** Changes Since 1.01.341 **
+==============================
+
+* added ability to display the last 50 messages (or whatever fits on the screen) by holding down a key during the game. To set the key go to Setup Biker->Bike Controls->Configure Controls and hit scroll down until you come to the last page and at the bottom is "Show Messages".
+
+==============================
+** Changes Since 1.01.340 **
+==============================
+
+* fixed bug causing customisable message colours to not reload settings correctly from registry
+
+==============================
+** Changes Since 1.01.337 **
+==============================
+
+* customisable message colours now saves and reloads settings to/from registry
+* set multiplayer collision perspective to default to COLPERS_Descent (i.e. target decides a.k.a. lag tol off)
+
+==============================
+** Changes Since 1.01.335 **
+==============================
+
+* added ability from the in-game menu (options->visuals) to customise the colour of most of the messages displayed... however doesn't save these settings after being shut down yet.
+* fixed cluttering of in-game menu for Detail Levels (under visuals)
+
+==============================
+** Changes since 1.01.332 **
+==============================
+
+* Milestone kill messages (e.g. YOU ARE ON A KILLING SPREE (3 KILLS)) now default display in red.
+* Killing someone by crashing into them now displays as 'A KAMIKAZE'. E.g. YOU KILLED BDB WITH A KAMIKAZE.
+* Fixed too many spaces when killing someone on same team. Previous example: YOU KILLED BDB WITH__TROJAX ON THE SAME TEAM.
+
+=============================================
+** Significant changes prior to 1.01.332 **
+=============================================
+
+* Mouse wheel now able to scroll the menus, left mouse button = forward menu, right mouse button = back menu
+* Config files are located in Pilots folder.
+* Config files are now .txt and not .cfg (rename old cfg files to .txt to work.)
+* Config files now save correctly.
+* Utilises DirectX 7, DirectPlay 4A
+* Bike headlights
+* Full rear-view screen
+* Single player enemies made 50% weaker
+* Reverse nitro no-longer works
+* Suss/Pyro ammo bug now only regenerates ammo to 3000 not infinity
+* Killing team mate minuses a point
+* Maximum ping time raised from 30 to 60 seconds
+* Maximum packet rate raised from 30 to 100 pps
+* Flygirl always available for selection
+* Kill message now displays which weapon was used e.g. XXXXXXX KILLED DEADLY WITH TROJAX
+* Whisper message (control+enter) now shows that it's a whisper message e.g. DEADLY WHISPERS YOOOO
+* Thief missile and spider mines added to menus (but not to level pickup files)
+* Show weapon kills info functional (in-game: options -> show extra info on & show weapon kills on)
+* All multiplayer levels added (total now 37)
+* Join game screen displays number of players, type of game (CTF, flag chase etc.), level, ping, time game started and other options such as lag tolerance on/off etc.
+* All CD checks removed
+* Multiple primary weapons selectable from multiplayer host menu
+* Bomb-tag multiplayer game added (but not fully functional)
+* Windowed mode (non-full screen)
+* Forsaken install can be located anywhere
+* Registry files created automatically
+* Multiplayer defaults now more in-line with commonly accepted standards
+* Opt files are no-longer necessary
+* No pause when entering create game menu
+* Ship level randomise pickups bug fixed
+* Added quit to desktop option from in-game menu
+* In-game menu changed to include Host Options which encompasses ping refresh, packet rate, level select etc.
+* Renamed Lag Tolerance On/Off to Collision Perspective Shooter/Target
+* Flygirl now has engine lights to make the bike fair for multiplayer
+* Host has ability to kick other players out of multiplayer games.
+* Different messages (and sounds) are displayed after a player achieves a certain amount of kills without dying in multiplayer e.g. XXXXXXX IS ON A KILLING SPREE (3 KILLS)
+* Mature content switched to 'Tom Cruise mode' - after killing a player, their body flies out of the bike. To enable, turn on mature content in the normal way (i.e. under Detail Levels)
+* Added Quake type milestone kill messages (and sounds) after achieving a number of kills without dying in multiplayer. E.g YOU ARE ON A KILLING SPREE (3 KILLS)

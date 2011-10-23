@@ -1,0 +1,57 @@
+<html>
+	<head>
+		<title>Forsaken Times</title>
+		<style type="text/css">
+			td {
+				border:1px solid white;
+			}
+			th,td {
+				padding:0.5em;
+			}
+		</style>
+		<script type="text/javascript" src="/js/jquery.js"></script>
+		<script type="text/javascript">
+			var update = function( time ){
+				$.get('times.xml',{},function( doc ){
+					times = $(doc).find('time');
+					// update counter
+					$('#count').text( times.length );
+					// add new times
+					times.each(function(){
+						var time = $( this );
+						var n = time.attr('nick');
+						var t = time.attr('time');
+						// check if time already exists
+						if ( $('#times:contains('+n+t+')').length ) 
+							return;
+						var html = '<tr class="time"><td>'+n+'</td><td>'+t+'</td></tr>';
+						$('#times').append( html );
+					});
+					// remove old times
+					$('#times.time').each(function(){
+						var ip = $( this ).text();
+						// check if time doesn't exist
+						if ( ! $(doc).find( 'time[ip='+ip+']' ).length )
+							$( this ).remove();
+					});
+				},
+				'xml');
+				// run again in one second
+				window.setTimeout( update, 1000 );
+			}
+			update();
+		</script>
+	</head>
+	<body>
+		<div id="title">
+			<span id="count">0</span>
+			Times
+		<div>
+		<table id="times">
+			<tr>
+				<th>User</th>
+				<th>When</th>
+			</tr>
+		</table>
+	</body>
+</html>

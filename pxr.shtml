@@ -1,0 +1,29 @@
+<div id="pxr" class="left padding">
+
+<div class="padding">
+	<h2>ProjectX Ruby</h2>
+	<p>Prototype using <a href="http://ruby-lang.org">Ruby</a> which supports 6dof movement, networked multiplayer, chat, score, shooting, physics, forsaken/descent levels in 1500 lines of code!</p>
+</div>
+
+<div class="links">
+<h2>Links</h2>
+<ul>
+<li><a href="/projects/pxr/">Source</a></li>
+<li><a href="http://picasaweb.google.com/mr.danielaquino/Forsaken6dof#">Images</a>
+</ul>
+</div>
+
+<div class="links">
+<h2>Videos</h2>
+<ul>
+<li><a href="http://www.youtube.com/watch?v=DJK-v76D4HU">ProjectX Ruby Port</a></li>
+<li><a href="http://www.youtube.com/watch?v=zi49PkO47_A">Basic movement and collision</a></li>
+</ul>
+</div>
+
+<div class="video">
+<h2>Demo</h2>
+<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/Vn96UQaZgl0;hl=en&amp;fs=1"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed wmode="transparent" src="http://www.youtube.com/v/Vn96UQaZgl0;hl=en&amp;fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object>
+</div>
+
+</div>

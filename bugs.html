@@ -1,0 +1,126 @@
+<html>
+<head>
+<title>Bugs</title>
+<style type="text/css">
+	.done { color: green; }
+	p { border: 1px solid black;  padding:0.5em; margin-left:3em; }
+	.debug { color:red; font-weight:bold; }
+	h1 { padding:0.5em; border:1px solid black; font-size:3em; }
+</style>
+<body>
+
+<h1>Bugs</h1>
+
+	<p>Bugs are being worked on in order from top down.</p>
+
+	<p>Send an email to <b>fskn.methods@gmail.com</b> to add or vote on bugs order.</p>
+
+<h2>NETWORKING</h2>
+
+	<p>Change pps notworking in game</p>
+
+	<p>Laggy players or other situations can lock you up (happens in 1069 as well)</p>
+
+	<p>names some times disapear from the score or the score may be different between people (happens in 1069 as well)</p>
+
+	<p>pickups would not disapear when picked up causing massive pickups</p>
+	
+<h2>CRASH / FREEZE</h2>
+
+	<p>debug mode: enabling show-start-points *can* cause an infinite loop. (the entire debug mode in 1069 didn't work)</p>
+
+<h2>INPUTS</h2>
+
+	<p>if you set watch mode then it stays on next time you join/host and even in single player causing you to not be able to move</p>
+
+<h1 class="done">Finished</h1>
+
+<h2>INPUTS</h2>
+
+	<p class="done">mouse buttons don't release in window mode after you respawn if they were held down when you died. (cleared the mouse inputs)</p>
+
+	<p class="done">bully says mouse doesn't feel as sharp. (the old game would repeat the last mouse imput (for 0.028 seconds) while dx's dinput would accumlate the mouse values behind the scene; the new sdl method was providing accumlated values up front and only clearing it after the same 0.028 second timeout; apparently the higher level application code didn't feel the same anymore; or was less responsive)</p>
+
+<h2>SYSTEM</h2>
+
+	<p class="done">msvcr dll problems ... or application configuration is incorrect ...  (this has been fixed by using the mingw compiler to build everything from scratch to only require msvcrt.dll) (1069 requires users to install .net 3.5 sp1 and newer versions built with vs10 required .net4)</p>
+
+	<p class="done">get metherr to work again? (math errors will now be logged to the log file)</p>
+
+<h2>TIMING</h2>
+
+	<p class="done">respawn timer is now 3.5 seconds for anyone regardless of fps (this affects 1069 and any older versions)</p>
+
+<h2>SOUND</h2>
+
+	<p class="done">weird sounds: (as of now this actually doesn't exist and for those that do it seems to be a driver or system configuration issue which is out of scope of forsaken support)</p>
+
+	<p class="done">looping sound don't die on level change.  for example load up arena then alpha and the arena sound never goes away.  (old code had double references to data but new code doesn't so sound cleanup was not being done right)</p>
+
+	<p class="done">not all sounds can be heard (increased number of sound slots from 64 to 256)</p>
+
+	<p class="done">
+		when dead a really loud sound will start ( x / (framelag=0) caused pan setting to be a nan)</p>
+
+<h2>INTERFACE</h2>
+
+	<p class="done">when you die in window mode at score screen mouse should free (1069 can't even manage a window properly)</p>
+
+	<p class="done">no text on joining into game (once again the old game used bit mapped fonts here so no textures or anything else was loading/running to support polygonal text; this was added in and all init view steps were combined into one since on any pc from today it loads instantly)</p>
+
+	<p class="done">You can see cracks between some geometry such as the pillars in alpha level (this may have only happened on video cards that didn't support non square textures; forced all textures to be square)</p>
+
+	<p class="done">load game screen does not show time in linux (need to port file time code to be cross platform)</p>
+
+	<p class="done">no text on load game screen (was not enabled for linux)</p>
+
+	<p class="done">make messages stick around longer so you can read them (is now configurable how long you want the message to stay around: MaxMessageTime in the config)</p>
+
+	<p class="done">messages flash when not running in vsync mode (some code that expected framelag to be larger and reduce a varible to less than zero when in fact framelag was so small the variable stayed at zero so it should check for less than or equal to zero)</p>
+
+	<p class="done">default max players should be set to highest</p>
+
+	<p class="done">vsync should be option in game</p>
+
+	<p class="done">can not see text on level change that says, "hit space to continue". (Addded support for polygonal text rendering in between levels; the old game used bitmap fonts so it didn't need that support at the time; this affected 1069 as well if you turned on polygonal text which is the only supported mode now)</p>
+
+<h2>GRAPHICS</h2>
+
+	<p class="done">name text blinks to fast on score screen (converted it to use real framelag)</p>
+
+	<p class="done">Scatter trail is short or bent. (memcpy was being used to shift an array over over lapping members; memcpy was converted to memove to fix the issue)</p>
+
+	<p class="done">When text goes over the rear/missile cam it becomes very small and rendered inside the cam instead of over it. (2d screen polys were beind rendered for every single camera view; I moved the 2d screen poly rendering to only run on the main cam after the main/mini cams were already rendered; this way the 2d polys end up on top of everything else and don't get rendered into the viewport of the mini cam; this has the affect though that mini cam could never have 2d polys which consists of text and lense flair; which apparently the game did support anyway; I also enabled hud and lense flair in full screen rear view)</p>
+
+	<p class="done">Title room did that clear screen before rendering which would show up in certain cass</p>
+
+	<p class="done">White out effect was missing (this has been restored for gl1 build on windows/linux and lion has made a better one that will make it's way into gl3)</p>
+
+	<p class="done">Got rid of black spots that move around when you die. (some old lighting trick that was supposed to work along with the white out)</p>
+
+	<p class="done">Screen is black for new users and they need to hit shift+f12 (resolution w/h was set to 0/0 which is supposed to default to the desktop setting but apparently leaves the user in a state of black screen; the game now starts up in window mode at 800x600 which will always work and the user can pick whatever settings they want)</p>
+
+<h2>NETWORKING</h2>
+
+	<p class="done">Some players couldn't join or see each other in game (lossy connections were causing race conditions in the initial synching faze)</p>
+
+<h2>CRASH / FREEZE</h2>
+
+	<p class="done">another memory corruption issue fixed (render objects were not properly cleaned up before usage and after usage)</p>
+
+	<p class="done">sound bug that causes a crash (a pointer address that was freed was not null'd causing it to be used/free'd again resulting in a crash)</p>
+
+	<p class="done">crash if your computer does not have any audio capture devices (simple null pointer check enumerating capture devices)</p>
+
+	<p class="done">crash when going to select biker. (simple check for null pointer missing)</p>
+
+	<p class="done">changing between window/fullscreen causes crash (default bpp=24 wasn't supported on all video cards and vice versa; you could fix it by switching bpp to 32 in the config file; now the game will only use whatever your desktop is currently set at which always is safe)</p>
+
+	<p class="done">in windows a message box would appear when closing the game (not all libraries were being cleaned up before exit)</p>
+
+	<p class="done">debug mode and window lock ups (vector normalization was producing an inf which would cause the bsp collision code to get stuck in a loop)</p>
+
+	<p class="done">Two memory overflow bugs found and fixed.  1st in sound code, 2nd in networking.</p>
+
+</body>
+</html>

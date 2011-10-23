@@ -1,0 +1,13 @@
+- ProjectX is an updated (bug fixes, features, system port) version of Acclaim Forsaken.
+
+- It does not require the old cd and is consists of a single download.
+
+- There is no installation, just unzip and run the game.
+
+- To host/join multiplayer games you must open your UDP port 2300 on your firewall/router. 
+
+- To download the game and for more complete information check out the site (http://fly.thruhere.net). 
+
+- People are usually around from 10am to 10pm EST (-5) to help you further. 
+
+- If no one is around to help, you can email fskn.methods@gmail.com

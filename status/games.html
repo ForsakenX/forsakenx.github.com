@@ -1,0 +1,57 @@
+<html>
+	<head>
+		<title>Forsaken Games</title>
+		<style type="text/css">
+			td {
+				border:1px solid white;
+			}
+			th,td {
+				padding:0.5em;
+			}
+		</style>
+		<script type="text/javascript" src="/js/jquery.js"></script>
+		<script type="text/javascript">
+			var update = function( game ){
+				$.get('games.xml',{},function( doc ){
+					games = $(doc).find('game');
+					// update counter
+					$('#count').text( games.length );
+					// add new games
+					games.each(function(){
+						var game = $( this );
+						var ip = game.attr('ip');
+						// check if game already exists
+						if ( $('#games:contains('+ip+')').length ) 
+							return;
+						var html = '<tr class="game"><td>'+game.attr('nick')+'</td><td>'+ip+'</td><td>'+game.attr('started_at')+'</td></tr>';
+						$('#games').append( html );
+					});
+					// remove old games
+					$('#games.game').each(function(){
+						var ip = $( this ).text();
+						// check if game doesn't exist
+						if ( ! $(doc).find( 'game[ip='+ip+']' ).length )
+							$( this ).remove();
+					});
+				},
+				'xml');
+				// run again in one second
+				window.setTimeout( update, 1000 );
+			}
+			update();
+		</script>
+	</head>
+	<body>
+		<div id="title">
+			<span id="count">0</span>
+			Games
+		<div>
+		<table id="games">
+			<tr>
+				<th>Host</th>
+				<th>IP</th>
+				<th>Time</th>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,12 @@
+/* Page Style */
+
+html, body {
+        width:100%; height:99%; margin:0px;
+        background-color: #000000;
+}
+
+/* Menu Style */
+
+#menu .border { display:inline; margin-bottom:-5px; }
+#menu .bg { width:121px; height:28px; }
+#menu img { border:0; display:block; margin-bottom:-0.1px; }

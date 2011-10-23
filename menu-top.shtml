@@ -1,0 +1,23 @@
+<!-- menu-top START -->
+
+<div id="menu">
+
+	<ul>
+		<li><a href="#top">Intro</a></li>
+		<li><a href="#chat">Chat</a></li>
+		<li><a href="#projectx">PX Forsaken Port</a></li>
+		<li><a href="#pxr">PX Ruby</a></li>
+		<li><a href="#pxwgl">PX WebGL</a></li>
+		<li><a href="#pxb">PX Blender</a></li>
+		<li><a href="#sixdof">6dof</a></li>
+		<li><a href="#links">Others</a></li>
+		<li style="float:right; padding:0.4em;">
+			<g:plusone></g:plusone>
+		</li>
+	</ul>
+
+	<div class="clearfix"></div>
+
+</div>
+
+<!-- menu-top END -->

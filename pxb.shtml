@@ -1,0 +1,26 @@
+<div id="pxr" class="left padding">
+
+<div class="padding">
+	<h2>ProjectX Blender</h2>
+	<p>Prototype using <a href="http://www.blender.org/">Blender Game Engine</a>.</p>
+	<p>Currently supports loading Forsaken's Ship level and 6dof movement using no custom written code!</p>
+	<p>Pending loaders/exporters for forsaken/descent formats will allow sharing of models/levels between the games.</p>
+	<p>Eventually will be a level editor and modeller.</p>
+</div>
+
+<div class="links">
+<h2>Links</h2>
+<ul>
+<li><a href="/projects/blender/">Download</a></li>
+</ul>
+</div>
+
+<div class="video">
+<h2>Videos</h2>
+
+<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/dOu4ZFZAJq4;hl=en&amp;fs=1"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed wmode="transparent" src="http://www.youtube.com/v/dOu4ZFZAJq4;hl=en&amp;fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object>
+
+<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/eFojIAYsjXU;hl=en&amp;fs=1"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed wmode="transparent" src="http://www.youtube.com/v/eFojIAYsjXU;hl=en&amp;fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object>
+</div>
+
+</div>

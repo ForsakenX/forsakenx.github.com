@@ -1,0 +1,24 @@
+<div id="pxr" class="left padding">
+
+<div class="padding">
+	<h2>ProjectX WebGL (html5)</h2>
+	<p>Prototype using <a href="http://www.khronos.org/webgl/">WebGL</a> (3d rendering for the web).</p>
+	<p>Supports 6dof movement, networked multiplayer, and physics in Forsaken's Ship level and ability to tweak various rendering options.</p>
+	<p>Including editing vertex/fragement shaders in real time!</p>
+</div>
+
+<div class="links">
+<h2>Links</h2>
+<ul>
+<li><a href="/projects/pxwgl-net/">Source</a></li>
+<li><a href="http://picasaweb.google.com/mr.danielaquino/Forsaken6dof#">Images</a>
+</ul>
+</div>
+
+<div class="video">
+<h2>Demos</h2>
+<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/VnGeG6HN9vU;hl=en&amp;fs=1"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed wmode="transparent" src="http://www.youtube.com/v/VnGeG6HN9vU;hl=en&amp;fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object>
+<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/48A59-JZrVc"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed wmode="transparent" src="http://www.youtube.com/v/48A59-JZrVc" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object>
+</div>
+
+</div>
