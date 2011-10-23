@@ -10,3 +10,5 @@ Pilots page is out of date:
 	http://fly.thruhere.net/fsplanet/pilots.htm
 
 Rename all the pages to shtml and include the centralized menu.
+
+Move the depcrecation notice above every page?
