@@ -2,18 +2,20 @@
       <div id="menu">
         <img class="border bg" src="images/top_bg.gif"><img class="border" src="images/r_edge.gif">
         <img id="top" src="images/green.GIF">
+
         <a href="/fsplanet/"><img id="me" src="images/m_1off.gif" alt="Forsaken Home" 
-          onMouseOver="this.src='images/m_1on.gif'" onMouseOut="this.src='images/m_1off.gif'"></a>
+          onMouseOver="this.src='images/m_1off.gif'" onMouseOut="this.src='images/m_1off.gif'"></a>
         <a href="fskn.htm"><img src="images/m_2off.gif" alt="Forsaken"
-          onMouseOver="this.src='images/m_2on.gif'" onMouseOut="this.src='images/m_2off.gif'"></a>
+          onMouseOver="this.src='images/m_2off.gif'" onMouseOut="this.src='images/m_2off.gif'"></a>
         <a href="help.htm"><img src="images/m_3off.gif" alt="Help - Forsaken"
-          onMouseOver="this.src='images/m_3on.gif'" onMouseOut="this.src='images/m_3off.gif'"></a>
+          onMouseOver="this.src='images/m_3off.gif'" onMouseOut="this.src='images/m_3off.gif'"></a>
         <a href="files.htm"><img src="images/m_4off.gif" alt="Download"
-          onMouseOver="this.src='images/m_4on.gif'" onMouseOut="this.src='images/m_4off.gif'"></a>
+          onMouseOver="this.src='images/m_4off.gif'" onMouseOut="this.src='images/m_4off.gif'"></a>
         <a href="links.htm"><img src="images/m_5off.gif" alt="other Forsaken related pages"
-          onMouseOver="this.src='images/m_5on.gif'" onMouseOut="this.src='images/m_5off.gif'"></a>
+          onMouseOver="this.src='images/m_5off.gif'" onMouseOut="this.src='images/m_5off.gif'"></a>
         <a href="pilots.htm"><img src="images/m_6off.gif" alt="Forsaken players"
-          onMouseOver="this.src='images/m_6on.gif'" onMouseOut="this.src='images/m_6off.gif'"></a>
+          onMouseOver="this.src='images/m_6off.gif'" onMouseOut="this.src='images/m_6off.gif'"></a>
+
         <img id="bottom" src="images/bottom01.gif">
         <img class="border bg" src="images/top_bg.gif"><img class="border" src="images/r_edge.gif">
       </div>
