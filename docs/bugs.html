@@ -15,23 +15,17 @@
 
 	<p>Send an email to <b>fskn.methods@gmail.com</b> to add or vote on bugs order.</p>
 
-<h2>NETWORKING</h2>
+<h2>MULTIPLAYER</h2>
 
-	<p>Change pps notworking in game</p>
+	<p>Various score related bugs such as: names disapearing, scores duplicating etc..</p>
 
-	<p>Laggy players or other situations can lock you up (happens in 1069 as well)</p>
+	<p>Pickups are not randomized enough causing to many of same gun to show up with multiple primaries setup..</p>
 
-	<p>names some times disapear from the score or the score may be different between people (happens in 1069 as well)</p>
-
-	<p>pickups would not disapear when picked up causing massive pickups</p>
+	<p>Nat punchthrough is not working yet for all types of possible nats.</p>
 	
 <h2>CRASH / FREEZE</h2>
 
 	<p>debug mode: enabling show-start-points *can* cause an infinite loop. (the entire debug mode in 1069 didn't work)</p>
-
-<h2>INPUTS</h2>
-
-	<p>if you set watch mode then it stays on next time you join/host and even in single player causing you to not be able to move</p>
 
 <h1 class="done">Finished</h1>
 
@@ -40,6 +34,8 @@
 	<p class="done">mouse buttons don't release in window mode after you respawn if they were held down when you died. (cleared the mouse inputs)</p>
 
 	<p class="done">bully says mouse doesn't feel as sharp. (the old game would repeat the last mouse imput (for 0.028 seconds) while dx's dinput would accumlate the mouse values behind the scene; the new sdl method was providing accumlated values up front and only clearing it after the same 0.028 second timeout; apparently the higher level application code didn't feel the same anymore; or was less responsive)</p>
+
+	<p class="done">if you set watch mode then it stays on next time you join/host and even in single player causing you to not be able to move</p>
 
 <h2>SYSTEM</h2>
 
@@ -103,6 +99,8 @@
 <h2>NETWORKING</h2>
 
 	<p class="done">Some players couldn't join or see each other in game (lossy connections were causing race conditions in the initial synching faze)</p>
+
+	<p class="done">Change pps networking in game</p>
 
 <h2>CRASH / FREEZE</h2>
 
