@@ -23,10 +23,6 @@
 	<div class="section">
 		<div id="games" class="list"></div>
 	</div>
-	<div class="title">Times</div>
-	<div class="section">
-		<div id="times" class="list"></div>
-	</div>
 </div>
 
 <div id="chat">
