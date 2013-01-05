@@ -55,7 +55,6 @@ Games
 <a href="/status/games.html">(list)</a>
 <a href="/status/games.xml">(xml)</a>
 </li>
-<li><a href="/docs/CHANGES.xml">Commit Feed (xml)</a></li>
 <li><a href="https://github.com/ForsakenX/forsaken/issues">Issue Tracker (bugs/features)</a></li>
 </ul>
 </div>
@@ -64,9 +63,6 @@ Games
 <h2>Documentation</h2>
 <ul>
 <li><a href="https://github.com/ForsakenX/forsaken/wiki">Forsaken Docs @ GitHub</a>
-<li><a href="/download/projectx/docs/">Included w/ Download</a>
-<li><a href="/docs/CHANGES.txt">Feature Changes</a></li>
-<li><a href="https://github.com/ForsakenX/forsaken/wiki/Players">Players</a></li>
 <li><a href="/fsplanet">Old site with lots of good information for newbs</a></li>
 </ul>
 </div>
