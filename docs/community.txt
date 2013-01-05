@@ -1,9 +1,0 @@
- == servers ==                == chat ==            == forums ==             == site ==
-
-irc.freenode.net           #6dof  #forsaken                            http://fly.thruhere.net
-irc.gamesurge.net             #descent3             descentbb.com
-irc.blitzed.org                 #kahn
-descentforum.net         #descent  #dxx-rebirth          yes
-kali                            d1/d2
-dxx-rebirth.com          descent forum chats
-                                                    descentbb.net
