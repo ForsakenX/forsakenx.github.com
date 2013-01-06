@@ -1,5 +1,4 @@
 User-agent: *
 Disallow: /status/
-Disallow: /download/
 Disallow: /*/.bzr/
 Disallow: /*/.svn/

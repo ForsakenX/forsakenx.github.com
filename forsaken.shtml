@@ -49,7 +49,7 @@
 <div class="links">
 <h2>General Links</h2>
 <ul>
-<li> <a style="display:inline-block; margin:1em 0; padding:1em; border:1px outset black; border-radius: 1em; background-color: #98ABBB; color: #292929; font-weight: bold; -moz-box-shadow: 3px 3px 4px #292929; -webkit-box-shadow: 3px 3px 4px #292929; box-shadow: 3px 3px 4px #292929; -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#292929')"; filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#292929');" href="/download/">Download</a> </li>
+<li> <a style="display:inline-block; margin:1em 0; padding:1em; border:1px outset black; border-radius: 1em; background-color: #98ABBB; color: #292929; font-weight: bold; -moz-box-shadow: 3px 3px 4px #292929; -webkit-box-shadow: 3px 3px 4px #292929; box-shadow: 3px 3px 4px #292929; -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#292929')"; filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#292929');" href="https://github.com/ForsakenX/forsaken/wiki">Download Information</a> </li>
 <li>
 Games 
 <a href="/status/games.html">(list)</a>
