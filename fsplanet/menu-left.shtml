@@ -13,8 +13,6 @@
           onMouseOver="this.src='images/m_4off.gif'" onMouseOut="this.src='images/m_4off.gif'"></a>
         <a href="links.htm"><img src="images/m_5off.gif" alt="other Forsaken related pages"
           onMouseOver="this.src='images/m_5off.gif'" onMouseOut="this.src='images/m_5off.gif'"></a>
-        <a href="pilots.htm"><img src="images/m_6off.gif" alt="Forsaken players"
-          onMouseOver="this.src='images/m_6off.gif'" onMouseOut="this.src='images/m_6off.gif'"></a>
 
         <img id="bottom" src="images/bottom01.gif">
         <img class="border bg" src="images/top_bg.gif"><img class="border" src="images/r_edge.gif">
