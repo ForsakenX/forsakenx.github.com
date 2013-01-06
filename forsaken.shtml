@@ -132,7 +132,7 @@ Games
 						(such as being submerged in water).
 					</span></p>
 		<h3 id="projectx_networking">Networking</h3>
-			<p> ProjectX was ported to a <a href="http://fly.thruhere.net/projects/forsaken/net_enet_2.c">custom</a>,
+			<p> ProjectX was ported to a custom,
 					peer-to-peer library written on top of <a href="http://enet.bespin.org/">Enet</a>.</p>
 		<h4>Routers / Firewalls</h4>
 			<p> The game always has been and will most likely always be 
