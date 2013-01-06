@@ -80,12 +80,4 @@
 	<div class="divider clearfix">
 	</div>
 
-	<div id="links" class="border">
-		<!--#include virtual="links.shtml" -->
-		<div class="clearfix"></div>
-	</div>
-
-	<div class="divider">
-	</div>
-
 </body>
