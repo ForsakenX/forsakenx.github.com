@@ -1,21 +1,29 @@
 body { color: #555555; border:0; margin:0; }
 
-a { color: rgb(85, 119, 153); text-decoration:none; }
+a { color: rgb(248, 103, 20); text-decoration:underline; }
 a:hover { color:green; }
 
 p { padding-left: 2em; }
-
-.links ul { list-style-type:none; }
+ul { list-style-type:none; }
 
 .clearfix { clear: both; }
 
 #menu-top { background-color:#333333; padding:0.1em 0.5em; width:100%; }
-#menu     { float:right; }
-#menu div { margin:0 0.5em; padding:0; display:inline-block; }
+#services   { float:right; }
+#services * { margin:0; padding:0; border:0; }
+#services div { display:inline-block; }
 
 #content { padding:1em; background: url(/images/bg.png) repeat-x top left; }
 
-#forsaken-cover { float:right; height:170px; margin:0 0 1em 1em; }
+#links      { float: left; }
+#links ul   { margin: 0; padding: 0; }
+#links li   { display: inline-block; }
+#links .sep { border: 1px solid white; height: 0.5em; }
+
+#forsaken-cover { float:left; height:170px; margin:1em; }
 #videos , #description { margin:0 0.5em; }
+
 #description { float: left; }
-#videos { float: right; }
+#forsaken-description { float: right; }
+#videos { float: left; }
+#videos div { float: left; }
