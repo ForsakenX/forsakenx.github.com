@@ -81,14 +81,6 @@ p {
 	border-bottom:1px solid #333;
 }
 
-.devider {
-	/* i do it this way because ie sucks */
-	/* id doesn't handle height:0.5em; properly */
-	/* normally i would of just used height+background-color */
-	/* but this is fine */
-	border-top:0.5em solid #333333;
-}
-
 /*
  * Menu
  */
