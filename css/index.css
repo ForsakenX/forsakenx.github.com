@@ -10,16 +10,16 @@ ul { list-style-type:none; }
 
 #menu-top { background-color:#333333; padding:0.1em 0.5em; width:100%; color:lightblue; }
 
-#services   { float:right; }
-#services * { margin:0; padding:0; border:0; }
-#services div { display:inline-block; }
-
-#content { padding:1em; background: url(/images/bg.png) repeat-x top left; }
-
 #links      { float: left; }
 #links ul   { margin: 0; padding: 0; }
 #links li   { display: inline-block; }
 #links .sep { border: 1px solid white; height: 0.5em; }
+
+#services   { float:right; }
+#services * { margin:0; padding:0; border:0; }
+#services div, #services div iframe { display:inline-block; float:left; margin: 0 0.3em;}
+
+#content { padding:1em; background: url(/images/bg.png) repeat-x top left; }
 
 #forsaken-cover { float:left; height:170px; margin:1em; }
 #videos , #description { margin:0 0.5em; }
