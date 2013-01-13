@@ -61,9 +61,6 @@ p {
 .padding { padding:1em; }
 .padding .padding { padding:0 1em; }
 
-.left { float: left; }
-.right { float: right; }
-
 .clearfix { clear: both; }
 
 .background { background: url(/images/bg.png) repeat-x top left; }
