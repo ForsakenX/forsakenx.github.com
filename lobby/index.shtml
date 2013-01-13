@@ -10,7 +10,7 @@
 	#sidebar .title { background-color:#E3EFFA; padding:0.5em; border:1px solid #C3D2E0; border-left:0; border-right:0; }
 	#sidebar .list div { border-bottom: 1px solid black; padding:0.25em; }
 </style>
-<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>
 <script type="text/javascript" src="funcs.js"></script>
 <script type="text/javascript" src="games.js"></script>
 <script type="text/javascript" src="times.js"></script>
