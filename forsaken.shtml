@@ -8,53 +8,52 @@
 		src="http://fly.thruhere.net/images/acclaim-forsaken.jpg"
 		alt="Acclaim Forsaken Logo">
 
-		<h1>Forsaken</h1>
+	<h1>Forsaken</h1>
 
-		<p>
-			This site hosts various projects revolving around 
-			Forsaken (aka ProjectX) and Descent (both 6dof shooters).
-		</p>
+		<p> Forsaken was developed by Probe Entertainment a division of Acclaim Entertainment in 1995. <p>
 
-		<p> These games are generally described as 
-			<a href="http://en.wikipedia.org/wiki/First-person_shooter">first person shooters</a> 
-			with
-			<a href="http://en.wikipedia.org/wiki/Six_degrees_of_freedom">six degrees of freedom (6dof)</a>
-			which is unlimited rotation and movement in zero gravity.
-		<p>
+	<h2>Genre</h2>
 
-		<p>
-			The best way to get more information and start playing within minutes
-			is to login to the <a href="#chat">chat</a> located directly below.
-		</p>
+		<p> It is generally described as a 
+			<a href="http://en.wikipedia.org/wiki/Six_degrees_of_freedom">6DoF (Degrees of Freedom)</a>
+			<a href="http://en.wikipedia.org/wiki/First-person_shooter">first person shooter</a>. </p>
 
-		<h2>History</h2>
-			<p> Forsaken was developed by Probe Entertainment a division of Acclaim Entertainment in 1995. <p>
-			<p> Similar to the <a href="http://en.wikipedia.org/wiki/Descent_%28video_game%29">Descent</a>
-			    series but unique in it's own right.</p>
-		<h2>Present</h2>
-			<p> It is now actively maintained by the community under the original code name ProjectX. </p>
-			<p> The code base is a fork of the final patch release with various hidden features exposed, 
-			    bug fixes, additions and reversals of unpopular changes that appeared in the patch (such 
-					as speed reduction). </p>
+		<p> Meaning players can move in any direction and rotate along any axis, without being affected
+				by gravity. </p>
 
-		<h2>Game Play</h2>
-			<p> The unique game play is a high paced and adrenaline driven. </p>
-			<p> The mixture of weapons and freedom of motion allows for unique styles 
-			    and personalities to be developed. </p>
-			<p> Some players are very tactical playing you like a game of chess,
-			    others are like raging animals attacking you from all angles,
-					and a few appear to have developed something of a martial arts. </p>
-			<p> Team games lead to very dynamic intricacies between the players 
-			    and the objectives (such as capture-the-flag) creating very tough and addictive competition. <p>
-			<p> Further information on game play is available on <a href="fsplanet/">FS Planet</a> (click on fskn in menu),
-					an old site mostly targeted at the original Forsaken no longer maintained but still usefull for documentation.</p>
+		<p> Only a few games of this type have ever been created, namely Forsaken and the
+				Descent series. <p>
 
+	<h2>Game Play</h2>
 
-		<h2>QuickStart and Wiki</h2>
-		<p>
-		See the <a href="http://github.com/ForsakenX/forsaken/wiki">Forsaken Wiki</a>
-		for the quick start guide , faq's , and more information.
-		</p>
+		<p> Forsaken's game play generally aims to be fast, fun, and arcade like. </p>
+		<p> There is the classic single player mode and online multiplayer gaming. </p>
+		<p> The mixture of weapons and freedom of motion allows for unique styles
+				and competitive gameplay. </p>
+		<p> Multiplayer supports free for all and various team / flag modes. </p>
+		<p> More information on game play can be found on the Wiki and
+				<a href="http://fly.thruhere.net/fsplanet/fskn.htm">FsPlanet</a>. </p>
+
+	<h2>Development</h2>
+
+		<p> It is now actively maintained by the player community under the original code name ProjectX. </p>
+		<p> The code base is a fork of the final patch release with various bug fixes and new features. </p>
+		<p> It has been fully ported to run on cross platform technologies and currently officially
+				supports Linux, MacOSX and Windows. </p>
+
+	<h2>Community</h2>
+
+		<p> Loosely built of Foraken and Descent players working to build and support the development
+				of 6DoF games. </p>
+		<p> We also work on prototypes and tooling for both games and new engines we are building. </p>
+
+	<h2>Download</h2>
+
+		<p> <a href="https://github.com/ForsakenX/forsaken/wiki/Quickstart">Quick Start Guide</a> </p>
+
+	<h2>More Info</h2>
+
+		<p> <a href="http://github.com/ForsakenX/forsaken/wiki">Forsaken Wiki</a> </p>
 			
 </div>
 
@@ -78,12 +77,6 @@
 <li><a href="http://picasaweb.google.com/mr.danielaquino/Forsaken6dof#">Method's ScreenShots</a></li>
 <li><a href="/fsplanet/kothfinal.htm">Koth Tournament Screenshots</a></li>
 <li><a href="/people/">Player Photos</a></li>
-</ul>
-</div>
-
-<div class="links">
-<h2>Method's Matches</h2>
-<ul>
 <li><a href="http://www.youtube.com/watch?v=KpUGnBzut2E">Methods vs Kmiell and Lion</a></li>
 <li><a href="http://www.youtube.com/watch?v=1h1BU4iM9m0">Methods vs Kmiell, Bdb and Bull</a></li>
 <li><a href="http://www.youtube.com/watch?v=EhCDxbV2Px0">Lion vs Meth </a></li>
