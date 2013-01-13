@@ -1,70 +1,20 @@
+body { color: #555555; border:0; margin:0; }
 
-body {
-	color: #555555;
-	border:0;
-	margin:0;
-}
+a { color: rgb(85, 119, 153); text-decoration:none; }
+a:hover { color:green; }
 
-a {
-	color: rgb(85, 119, 153);
-	text-decoration:none;
-}
+p { padding-left: 2em; }
 
-a:hover {
-	color:green;
-}
+#forsaken-cover { float:right; height:170px; margin:0 0 1em 1em; }
 
-h1 a, h2 a, h3 a {
-	color:inherit;
-	color: #555555; /* ie sucks */
-}
+.links { float:left; margin:0 1em; }
+.links ul { list-style-type:none; }
 
-ul {
-	list-style-type:none;
-}
-
-p {
-	padding-left: 2em;
-}
-
-#news ul { list-style-type:inherit; }
-#news li { margin:0.8em 0; }
-
-#forsaken-cover {
-	float:right;
-	height:170px;
-	margin:0 0 1em 1em;
-}
-
-.video {
-	float:right;
-	padding:1em;
-}
-
-#videos .video h2 {
-	text-align:center;
-}
-
-.links h1 {
-	display:inline-block; /* ie has layout bug */
-}
-
-.links h2 {
-	margin-top:0;
-}
-
-.links {
-	float:left;
-	margin:0 1em;
-}
-
-.padding { padding:1em; }
-.padding .padding { padding:0 1em; }
-
+.video { float:right; padding:1em; text-align:center; }
 .clearfix { clear: both; }
-
-.background { background: url(/images/bg.png) repeat-x top left; }
 
 #menu-top { background-color:#333333; padding:0.1em 0.5em; width:100%; }
 #menu     { float:right; }
 #menu div { margin:0 0.5em; padding:0; display:inline-block; }
+
+#main-content { padding:1em; background: url(/images/bg.png) repeat-x top left; }
