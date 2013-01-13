@@ -8,7 +8,8 @@ ul { list-style-type:none; }
 
 .clearfix { clear: both; }
 
-#menu-top { background-color:#333333; padding:0.1em 0.5em; width:100%; }
+#menu-top { background-color:#333333; padding:0.1em 0.5em; width:100%; color:lightblue; }
+
 #services   { float:right; }
 #services * { margin:0; padding:0; border:0; }
 #services div { display:inline-block; }
