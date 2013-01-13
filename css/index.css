@@ -102,7 +102,6 @@ p {
 #menu-top {
 	background-color:#333;
 	width:100%;
-	z-index:100;
 }
 
 #menu-top a { float:right; }
