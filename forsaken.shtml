@@ -30,10 +30,34 @@
 			    and the objectives (such as capture-the-flag) creating very tough and addictive competition. <p>
 			<p> Further information on game play is available on <a href="fsplanet/">FS Planet</a> (click on fskn in menu),
 					an old site mostly targeted at the original Forsaken no longer maintained but still usefull for documentation.</p>
-		<h3>Installation</h3>
-			<p> There really isn't one!  You just <a href="https://github.com/ForsakenX/forsaken/wiki">download</a> the game and play! </p>
-			<p> <b>Be sure to open/forward port 2300 UDP to your gaming machine</b>.</p>
-			<p>	For more information read the <a href="#projectx_networking">networking section</a>.</p>
+
+
+		<h3>Download and Installation</h3>
+			<p>
+				For detailed information see the
+				<a href="https://github.com/ForsakenX/forsaken/wiki/Download-and-installation">Download and Installation</a>
+				section on the wiki.</p>
+				<ul>
+					<li><a href="http://fly.thruhere.net/~silence/download/projectx.zip">Linux and Windows</a></li>
+					<li><a href="http://fly.thruhere.net/~silence/download/versions/mac/PX32.app.zip">Mac 32bit Bundle</a></li>
+					<li><a href="http://fly.thruhere.net/~silence/download/versions/mac/PX64.app.zip">Mac 64bit Bundle</a></li>
+					<li><a href="http://fly.thruhere.net/~silence/download/versions/">Updated Executables</a></li>
+				</ul>
+			</p>
+
+
+		<h3>Multiplayer</h3>
+			<p> You only have to open or forward port 2300 UDP. </p>
+			<p> For more information see the
+				<a href="https://github.com/ForsakenX/forsaken/wiki/Networking-faq">Networking FAQ</a>.
+			</p>
+
+		<h3>More Information</h3>
+			<p>
+			Checkout the <a href="http://github.com/ForsakenX/forsaken/wiki">Forsaken Wiki</a> for more
+			information on the game, it's history, how it was ported, and more.
+			</p>
+			
 </div>
 
 <div class="video">
@@ -49,7 +73,6 @@
 <div class="links">
 <h2>General Links</h2>
 <ul>
-<li> <a style="display:inline-block; margin:1em 0; padding:1em; border:1px outset black; border-radius: 1em; background-color: #98ABBB; color: #292929; font-weight: bold; -moz-box-shadow: 3px 3px 4px #292929; -webkit-box-shadow: 3px 3px 4px #292929; box-shadow: 3px 3px 4px #292929; -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#292929')"; filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#292929');" href="https://github.com/ForsakenX/forsaken/wiki">Download Information</a> </li>
 <li>
 Games 
 <a href="/status/games.html">(list)</a>
