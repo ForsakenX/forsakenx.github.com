@@ -18,7 +18,7 @@
 			<p> The code base is a fork of the final patch release with various hidden features exposed, 
 			    bug fixes, additions and reversals of unpopular changes that appeared in the patch (such 
 					as speed reduction). </p>
-			<p> See <a href="#projectx_porting_efforts">Porting Efforts</a> for technical information.</p>
+
 		<h3>Game Play</h3>
 			<p> The unique game play is a high paced and adrenaline driven. </p>
 			<p> The mixture of weapons and freedom of motion allows for unique styles 
@@ -32,31 +32,10 @@
 					an old site mostly targeted at the original Forsaken no longer maintained but still usefull for documentation.</p>
 
 
-		<h3>Download and Installation</h3>
-			<p>
-				For detailed information see the
-				<a href="https://github.com/ForsakenX/forsaken/wiki/Download-and-installation">Download and Installation</a>
-				section on the wiki.</p>
-				<ul>
-					<li><a href="http://fly.thruhere.net/~silence/download/projectx.zip">Linux and Windows</a></li>
-					<li><a href="http://fly.thruhere.net/~silence/download/versions/mac/PX32.app.zip">Mac 32bit Bundle</a></li>
-					<li><a href="http://fly.thruhere.net/~silence/download/versions/mac/PX64.app.zip">Mac 64bit Bundle</a></li>
-					<li><a href="http://fly.thruhere.net/~silence/download/versions/">Updated Executables</a></li>
-				</ul>
-			</p>
-
-
-		<h3>Multiplayer</h3>
-			<p> You only have to open or forward port 2300 UDP. </p>
-			<p> For more information see the
-				<a href="https://github.com/ForsakenX/forsaken/wiki/Networking-faq">Networking FAQ</a>.
-			</p>
-
-		<h3>More Information</h3>
-			<p>
-			Checkout the <a href="http://github.com/ForsakenX/forsaken/wiki">Forsaken Wiki</a> for more
-			information on the game, it's history, how it was ported, and more.
-			</p>
+		<p>
+		See the <a href="http://github.com/ForsakenX/forsaken/wiki">Forsaken Wiki</a>
+		for the quick start guide , faq's , and more information.
+		</p>
 			
 </div>
 
@@ -67,27 +46,6 @@
 <div class="video">
 <h4>Silence's video showing off Forsaken.</h4>
 <object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/z5CnDc3Opyw&amp;hd=1&amp;hl=en&amp;fs=1"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed wmode="transparent" src="http://www.youtube.com/v/z5CnDc3Opyw&amp;hd=1&amp;hl=en&amp;fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object>
-</div>
-
-
-<div class="links">
-<h2>General Links</h2>
-<ul>
-<li>
-Games 
-<a href="/status/games.html">(list)</a>
-<a href="/status/games.xml">(xml)</a>
-</li>
-<li><a href="https://github.com/ForsakenX/forsaken/issues">Issue Tracker (bugs/features)</a></li>
-</ul>
-</div>
-
-<div class="links">
-<h2>Documentation</h2>
-<ul>
-<li><a href="https://github.com/ForsakenX/forsaken/wiki">Forsaken Docs @ GitHub</a>
-<li><a href="/fsplanet">Old site with lots of good information for newbs</a></li>
-</ul>
 </div>
 
 <div class="links">
