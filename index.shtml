@@ -24,14 +24,6 @@
 	<div class="divider clearfix">
 	</div>
 
-	<div id="intro" class="border">
-		<!--#include virtual="intro.shtml" -->
-		<div class="clearfix"></div>
-	</div>
-
-	<div class="divider clearfix">
-	</div>
-
 	<div id="projectx" class="border">
 		<!--#include virtual="forsaken.shtml" -->
 		<div class="clearfix"></div>

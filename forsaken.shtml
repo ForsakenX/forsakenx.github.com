@@ -3,23 +3,41 @@
 <div id="forsaken" class="left padding">
 
 <div class="padding">
-	<h2>ProjectX - Forsaken Source Port</h2>
 
 	<img id="forsaken-cover" 
 		src="http://fly.thruhere.net/images/acclaim-forsaken.jpg"
 		alt="Acclaim Forsaken Logo">
 
-		<h3>History</h3>
+		<h1>Forsaken</h1>
+
+		<p>
+			This site hosts various projects revolving around 
+			Forsaken (aka ProjectX) and Descent (both 6dof shooters).
+		</p>
+
+		<p> These games are generally described as 
+			<a href="http://en.wikipedia.org/wiki/First-person_shooter">first person shooters</a> 
+			with
+			<a href="http://en.wikipedia.org/wiki/Six_degrees_of_freedom">six degrees of freedom (6dof)</a>
+			which is unlimited rotation and movement in zero gravity.
+		<p>
+
+		<p>
+			The best way to get more information and start playing within minutes
+			is to login to the <a href="#chat">chat</a> located directly below.
+		</p>
+
+		<h2>History</h2>
 			<p> Forsaken was developed by Probe Entertainment a division of Acclaim Entertainment in 1995. <p>
 			<p> Similar to the <a href="http://en.wikipedia.org/wiki/Descent_%28video_game%29">Descent</a>
 			    series but unique in it's own right.</p>
-		<h3>Present</h3>
+		<h2>Present</h2>
 			<p> It is now actively maintained by the community under the original code name ProjectX. </p>
 			<p> The code base is a fork of the final patch release with various hidden features exposed, 
 			    bug fixes, additions and reversals of unpopular changes that appeared in the patch (such 
 					as speed reduction). </p>
 
-		<h3>Game Play</h3>
+		<h2>Game Play</h2>
 			<p> The unique game play is a high paced and adrenaline driven. </p>
 			<p> The mixture of weapons and freedom of motion allows for unique styles 
 			    and personalities to be developed. </p>
@@ -32,7 +50,7 @@
 					an old site mostly targeted at the original Forsaken no longer maintained but still usefull for documentation.</p>
 
 
-		<h3>QuickStart and Wiki</h3>
+		<h2>QuickStart and Wiki</h2>
 		<p>
 		See the <a href="http://github.com/ForsakenX/forsaken/wiki">Forsaken Wiki</a>
 		for the quick start guide , faq's , and more information.
