@@ -5,16 +5,17 @@ a:hover { color:green; }
 
 p { padding-left: 2em; }
 
-#forsaken-cover { float:right; height:170px; margin:0 0 1em 1em; }
-
-.links { float:left; margin:0 1em; }
 .links ul { list-style-type:none; }
 
-.video { float:right; padding:1em; text-align:center; }
 .clearfix { clear: both; }
 
 #menu-top { background-color:#333333; padding:0.1em 0.5em; width:100%; }
 #menu     { float:right; }
 #menu div { margin:0 0.5em; padding:0; display:inline-block; }
 
-#main-content { padding:1em; background: url(/images/bg.png) repeat-x top left; }
+#content { padding:1em; background: url(/images/bg.png) repeat-x top left; }
+
+#forsaken-cover { float:right; height:170px; margin:0 0 1em 1em; }
+#videos , #description { margin:0 0.5em; }
+#description { float: left; }
+#videos { float: right; }
