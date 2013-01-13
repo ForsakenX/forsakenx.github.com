@@ -31,17 +31,17 @@
 
 	<div class="divider clearfix">
 	</div>
-	
-	<div id="chat" class="border">
-		<!--#include virtual="chat.shtml" -->
-		<div class="clearfix"></div>
-	</div>
-
-	<div class="divider clearfix">
-	</div>
 
 	<div id="projectx" class="border">
 		<!--#include virtual="forsaken.shtml" -->
+		<div class="clearfix"></div>
+	</div>
+	
+	<div class="divider clearfix">
+	</div>
+
+	<div id="chat" class="border">
+		<!--#include virtual="chat.shtml" -->
 		<div class="clearfix"></div>
 	</div>
 
