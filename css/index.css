@@ -100,39 +100,9 @@ p {
 }
 
 #menu-top {
-	position:absolute;  /* ie sucks */
-	top:0; left:0;
 	background-color:#333;
 	width:100%;
 	z-index:100;
 }
 
-html>body #menu-top:lang(en) { /* other browsers */
-	position:fixed;
-}
-
-#menu ul {
-	position:relative; /* lock in children */
-	font-weight:bold;
-	width:100%;
-	margin:0;
-	padding:0;
-}
-
-#menu li {
-	float: left;
-	display: inline-block;
-	margin:0;
-	padding:0;
-	margin-left:1em;
-}
-
-#menu a {
-	padding:0.5em;
-	display: inline-block;
-}
-
-#menu a:hover {
-	color:white;
-}
-
+#menu-top a { float:right; }
