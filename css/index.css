@@ -4,16 +4,14 @@ a { color: rgb(248, 103, 20); text-decoration:underline; }
 a:hover { color:green; }
 
 p { padding-left: 2em; }
-ul { list-style-type:none; }
 
 .clearfix { clear: both; }
 
 #menu-top { background-color:#333333; padding:0.1em 0.5em; width:100%; color:lightblue; }
 
 #links      { float: left; }
-#links ul   { margin: 0; padding: 0; }
-#links li   { display: inline-block; }
-#links .sep { border: 1px solid white; height: 0.5em; }
+#links ul   { margin: 0; padding:0; }
+#links li   { display: inline-block; margin-right:0.2em; }
 
 #services   { float:right; }
 #services * { margin:0; padding:0; border:0; }
