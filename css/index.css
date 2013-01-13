@@ -71,15 +71,7 @@ p {
  *  Page Deviders
  */
 
-.border {
-	background: url(/images/bg.png) repeat-x top left; 
-	border:0.5em solid #333;
-	/* another ie bug makes me write weird */
-	/* these should be 0 but ie draws them at 0.5em */
-	/* so I'm forced to give them a 1px height */
-	border-top:1px solid #333;
-	border-bottom:1px solid #333;
-}
+.background { background: url(/images/bg.png) repeat-x top left; }
 
 #menu-top { background-color:#333333; padding:0.1em 0.5em; width:100%; }
 #menu     { float:right; }
