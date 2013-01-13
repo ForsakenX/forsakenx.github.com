@@ -64,7 +64,6 @@ p {
 .left { float: left; }
 .right { float: right; }
 
-/* break floaters */
 .clearfix { clear: both; }
 
 .background { background: url(/images/bg.png) repeat-x top left; }
