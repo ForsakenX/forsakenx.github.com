@@ -48,36 +48,4 @@
 	<div class="divider clearfix">
 	</div>
 
-	<div id="pxr" class="border">
-		<!--#include virtual="pxr.shtml" -->
-		<div class="clearfix"></div>
-	</div>
-
-	<div class="divider clearfix">
-	</div>
-
-	<div id="pxwgl" class="border">
-		<!--#include virtual="pxwgl.shtml" -->
-		<div class="clearfix"></div>
-	</div>
-
-	<div class="divider clearfix">
-	</div>
-
-	<div id="pxb" class="border">
-		<!--#include virtual="pxb.shtml" -->
-		<div class="clearfix"></div>
-	</div>
-
-	<div class="divider clearfix">
-	</div>
-
-	<div id="sixdof" class="border">
-		<!--#include virtual="6dof.shtml" -->
-		<div class="clearfix"></div>
-	</div>
-
-	<div class="divider clearfix">
-	</div>
-
 </body>
