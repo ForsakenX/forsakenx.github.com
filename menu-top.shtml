@@ -1,25 +1,37 @@
-<div id="menu"> <!-- menu-top START -->
+<div id="menu">
 
-	<!-- ModDB link -->
-	<a href="http://www.moddb.com/mods/forsakenx" title="View ForsakenX on Mod DB" target="_blank">
-		<img src="http://media.moddb.com/images/global/moddb.png" alt="ForsakenX" style="height:1.4em;"/></a>
+	<div><a
+		href="https://twitter.com/ForsakenGame"
+		class="twitter-follow-button"
+		data-show-count="false"
+		data-size="small"
+		style="float:right;"
+	>Follow @ForsakenGame</a>
+			<script>
+				!function(d,s,id){
+					var js,fjs=d.getElementsByTagName(s)[0];
+					if(!d.getElementById(id)){
+						js=d.createElement(s);
+						js.id=id;
+						js.src="//platform.twitter.com/widgets.js";
+						fjs.parentNode.insertBefore(js,fjs);
+					}
+				}(document,"script","twitter-wjs");
+			</script>
+	</div>
 
-	<!-- google plus link -->
-	<g:plusone></g:plusone>
+	<div><a
+		href="http://www.moddb.com/mods/forsakenx"
+		title="View ForsakenX on Mod DB"
+		target="_blank"
+		style="float:right;"
+		><img
+						src="http://media.moddb.com/images/global/moddb.png"
+						alt="ForsakenX"
+						style="height:1.4em;"
+				></a>
+	</div>
 
-	<!-- twitter link -->
-	<a href="https://twitter.com/ForsakenGame" class="twitter-follow-button" data-show-count="false" data-size="small">Follow @ForsakenGame</a>
-	<script>
-		!function(d,s,id){
-			var js,fjs=d.getElementsByTagName(s)[0];
-			if(!d.getElementById(id)){
-				js=d.createElement(s);
-				js.id=id;
-				js.src="//platform.twitter.com/widgets.js";
-				fjs.parentNode.insertBefore(js,fjs);
-			}
-		}(document,"script","twitter-wjs");
-	</script>
+	<div><g:plusone></g:plusone></div>
 
-<div class="clearfix"></div>
-</div> <!-- menu-top END -->
+</div>

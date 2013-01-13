@@ -93,15 +93,8 @@ p {
  * Menu
  */
 
+#intro { padding-top:1em; } /* move top of page down */
 
-/* move top of page down */
-#intro {
-	padding-top:1em;
-}
-
-#menu-top {
-	background-color:#333;
-	width:100%;
-}
-
-#menu-top a { float:right; }
+#menu-top { background-color:#333333; padding:0.1em 0.5em; width:100%; }
+#menu     { float:right; }
+#menu div { margin:0 0.5em; padding:0; display:inline-block; }
