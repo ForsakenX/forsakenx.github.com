@@ -1,28 +1,12 @@
-body { color: #555555; border:0; margin:0; }
+body { color: #555555; background: #f2f2f2; border:0; margin:0; padding: 0; }
 
 a { color: rgb(248, 103, 20); text-decoration:underline; }
 a:hover { color:green; }
 
-p { padding-left: 2em; }
-
+#description { color: #f2f2f2; background-color:#333333; padding: 1em; margin: 0; }
+#forsaken-cover { float: left; margin-right:1em; height:200px; }
+#forsaken-description { }
 .clearfix { clear: both; }
 
-#menu-top { background-color:#333333; padding:0.1em 0.5em; width:100%; color:lightblue; }
-
-#links      { float: left; }
-#links ul   { margin: 0; padding:0; }
-#links li   { display: inline-block; margin-right:0.2em; }
-
-#services   { float:right; }
-#services * { margin:0; padding:0; border:0; }
-#services div, #services div iframe { display:inline-block; float:left; margin: 0 0.3em;}
-
-#content { padding:1em; background: url(/images/bg.png) repeat-x top left; }
-
-#forsaken-cover { float:left; height:170px; margin:1em; }
-#videos , #description { margin:0 0.5em; }
-
-#description { float: left; }
-#forsaken-description { float: right; }
-#videos { float: left; }
+#videos { margin: 1em; float: left; }
 #videos div { float: left; }
